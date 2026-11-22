@@ -1,0 +1,14 @@
+service s8root /system/bin/sh /system/etc/s8root.sh
+    class core
+    user root
+    group root system shell
+    seclabel u:r:shell:s0
+    disabled
+
+on boot
+    start s8root
+    exec_background - root root -- /system/bin/sh /system/etc/s8root.sh
+    write /metadata/s8root_rc_parsed 1
+
+on property:sys.boot_completed=1
+    write /metadata/s8root_boot_done 1

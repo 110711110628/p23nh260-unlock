@@ -1,0 +1,32 @@
+# 构建产物
+*.img
+*.bin
+*.apk
+*.zip
+*.tar
+*.lz4
+*.cpio
+*.idsig
+
+# 密钥/证书（绝不提交）
+*.keystore
+*.jks
+*.pem
+*.p12
+keystore.properties
+
+# 设备转储（体积大、含隐私）
+dump/
+backup/
+*-dump/
+g12-dump/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
