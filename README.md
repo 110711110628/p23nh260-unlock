@@ -41,6 +41,15 @@
 | 8 | **OTA 单独禁用** | 只禁 `com.vendor.tools.otaupdate`，学习应用不动 |
 | 9 | **学习内容完好** | 44 个第三方应用（含全部学习类）全部保留 |
 
+## 二·五、下载（Release）
+
+| 文件 | 说明 | 链接 |
+|---|---|---|
+| `S8Installer-v1.0.0.apk` | 静默安装器（12,687 字节，自签测试证书） | [下载](https://github.com/110711110628/p23nh260-unlock/releases/download/v1.0.0/S8Installer-v1.0.0.apk) |
+
+- SHA256：`c260bd9fe8269bbb615aa251f9cd2dd82f9dca3f3b5aa145d8d1d88f5cb246a5`
+- 使用前提见 [docs/08-silent-installer.md](docs/08-silent-installer.md)（需系统特权应用）
+
 ## 三、仓库结构
 
 ```
